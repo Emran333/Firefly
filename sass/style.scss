@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a:link {
+  text-decoration: none;
+}
+body {
+  font-weight: 300;
+}
+
+.wrapper {
+  max-width: 1920px;
+  font-family: roboto;
+  margin: 0 auto;
+}
+@import 'header';
+@import 'section1';
+@import 'patnerInfo';
+@import 'speacialServices';
+@import 'projectInfo';
+@import '_contactUs';
+@import '_footer';
