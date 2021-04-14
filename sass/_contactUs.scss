@@ -26,6 +26,7 @@
       grid-template-columns: 1fr 1fr;
       grid-template-rows: repeat(2, 1fr);
       grid-gap: 10px;
+      margin-bottom: 1.2rem;
 
       .input-box {
         height: 100%;
@@ -58,6 +59,14 @@
       .massage {
         grid-column: 1/3;
       }
+    }
+    .content-btn {
+      width: 100px;
+      height: 44px;
+      border-radius: 22px;
+      box-shadow: 0 0 6px rgba(108, 108, 108, 0.23);
+      margin: auto;
+      color: green;
     }
   }
 }

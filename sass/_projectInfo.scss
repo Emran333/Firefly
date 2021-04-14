@@ -1,29 +1,16 @@
 .project-info {
   width: 100%;
-  display: flex;
-  // background: #fafafa;
 
   .align {
-    padding: 100px;
-    width: 100%;
+    padding: 4rem;
     background: #fafafa;
-    // transform: rotate(-4deg);
     position: relative;
-    z-index: 2;
   }
-  // .align::before {
-  //   content: ' ';
-  //   background: green;
-  //   top: 0;
-  //   right: 0;
-  //   margin-right: -200px;
-  //   position: absolute;
-  // }
+
   .build {
     display: grid;
     grid-template-columns: repeat(2, 280px);
     grid-template-rows: repeat(3, 150px);
-    // transform: rotate(4deg);
     align-items: center;
     .build-img {
       position: absolute;
@@ -36,12 +23,13 @@
       grid-column: 1/3;
     }
     .info {
+      padding: 1.4rem;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       span {
-        font-size: 44px;
+        font-size: 3rem;
         font-weight: 250;
       }
       p {

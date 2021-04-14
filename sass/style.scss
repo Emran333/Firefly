@@ -7,7 +7,20 @@ a:link {
   text-decoration: none;
 }
 body {
-  font-weight: 300;
+  font-size: 0.875rem;
+}
+
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.25rem;
+}
+h4 {
+  font-size: 0.875rem;
 }
 
 .wrapper {
@@ -22,3 +35,4 @@ body {
 @import 'projectInfo';
 @import '_contactUs';
 @import '_footer';
+@import '_mediaQueries';
